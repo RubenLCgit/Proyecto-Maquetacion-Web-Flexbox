@@ -1,0 +1,52 @@
+@media (max-width: 1334px){
+    #header{
+        text-align: center;
+    }
+
+    #menu > ul{
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 646px){
+    #footer .logo{
+        flex-grow: 1;
+        order: 1;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    #footer .info{
+        flex-grow: 1;
+        order: 2;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    #content{
+        flex-direction: column;
+    }
+
+    #aside{
+        margin: 0px;
+    }
+
+    .project{
+        margin: 10px;
+    }
+
+    #aside ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #aside ul li{
+        flex-grow: 1;
+        margin: 5px;
+    }
+}
